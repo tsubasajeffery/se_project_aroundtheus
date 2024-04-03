@@ -56,8 +56,3 @@
 .card__like-button:hover {
   background: url(../images/like-active.svg) center;
 }
-
-@media screen and (max-width: 620px) {
-  .card__list {
-  }
-}

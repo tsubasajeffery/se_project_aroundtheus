@@ -1,21 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../blocks/header.css");
 @import url("../blocks/page.css");
 @import url("../blocks/profile.css");
 @import url("../blocks/card.css");
-
-.header {
-  margin-top: 45px;
-  padding-bottom: 45px;
-  max-height: 74px;
-  border-bottom: #545454 solid 1px;
-}
-
-.footer {
-  color: #545454;
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 400;
-  margin-top: 67px;
-}
+@import url("../blocks/footer.css");

@@ -27,3 +27,6 @@ This project is a responsive social media webpage. You can view it on your compu
 
 **GitHub**
 https://github.com/tsubasajeffery/se_project_aroundtheus.git
+
+**Video**
+https://drive.google.com/file/d/1ZHT_t9YN6JC28RvR0oPfo9u5DYvy_C03/view?usp=sharing

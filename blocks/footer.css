@@ -5,9 +5,18 @@
   line-height: 22px;
   font-weight: 400;
   margin-top: 67px;
+  margin-bottom: 0;
 }
 
 .footer__copyright {
   max-width: 318px;
   max-height: 18px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-top: 30px;
+    margin-bottom: 36px;
+  }
 }

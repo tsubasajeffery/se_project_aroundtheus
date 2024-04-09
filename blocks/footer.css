@@ -6,3 +6,8 @@
   font-weight: 400;
   margin-top: 67px;
 }
+
+.footer__copyright {
+  max-width: 318px;
+  max-height: 18px;
+}

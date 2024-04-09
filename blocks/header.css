@@ -1,6 +1,11 @@
 .header {
   margin-top: 45px;
-  padding: 45px 0 45px;
-  max-height: 74px;
-  border-bottom: #545454 solid 1px;
+  padding: 45px 0 0;
+  min-height: 74px;
+  border-bottom: rgb(84 84 84 / 0.7) solid 1px;
+}
+
+.header__logo {
+  max-width: 173px;
+  max-height: 33px;
 }

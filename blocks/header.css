@@ -2,6 +2,7 @@
   margin-top: 45px;
   padding: 45px 0 0;
   min-height: 74px;
+  border-bottom: rgb(84 84 84 / 0.7) solid 1px;
 }
 
 .header__logo {
@@ -9,19 +10,9 @@
   max-height: 33px;
 }
 
-.header__border {
-  border: rgb(84 84 84 / 0.7) solid 1px;
-  width: 880px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 925px) {
   .header {
     padding: 45px 0 0 27px;
-  }
-
-  .header__border {
-    width: 100%;
   }
 }
 
@@ -30,14 +21,11 @@
     margin: 0;
     padding: 28px 0 0 27px;
     min-height: 56px;
+    width: 100%;
   }
 
   .header__logo {
     max-width: 126px;
     max-height: 24px;
-  }
-
-  .header__border {
-    width: 100%;
   }
 }

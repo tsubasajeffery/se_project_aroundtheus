@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 22px;
   margin-top: 67px;
-  margin-bottom: 0;
+  margin-bottom: 60px;
   padding: 0 20px;
 }
 
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 620px) {
   .footer {
-    margin-top: 30px;
+    margin-top: 48px;
     margin-bottom: 36px;
     font-size: 14px;
     line-height: 17px;

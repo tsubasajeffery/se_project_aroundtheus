@@ -36,7 +36,7 @@
   width: 24px;
   height: 24px;
   grid-area: button;
-  margin: 15px 0 9px 18px;
+  margin: 15px 8px 9px 18px;
   border: 1px solid white;
 }
 
@@ -68,6 +68,13 @@
 .profile__add-button:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+@media screen and (max-width: 925px) {
+  .profile {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 620px) {

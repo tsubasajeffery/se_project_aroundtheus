@@ -3,20 +3,21 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400;
   margin-top: 67px;
   margin-bottom: 0;
+  padding: 0 20px;
 }
 
 .footer__copyright {
   max-width: 318px;
-  max-height: 18px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 620px) {
   .footer {
     margin-top: 30px;
     margin-bottom: 36px;
+    font-size: 14px;
+    line-height: 17px;
   }
 }

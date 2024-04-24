@@ -10,7 +10,7 @@
   padding: 0 19px;
 }
 
-.modal__opened {
+.modal_opened {
   display: flex;
 }
 
@@ -34,6 +34,10 @@
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
+}
+
+.modal__close:hover {
+  opacity: 60%;
 }
 
 .modal__heading {

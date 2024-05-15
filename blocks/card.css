@@ -15,9 +15,9 @@
 .card__trash-button {
   background: url(../images/Trash.svg) center no-repeat;
   border: none;
-  position: absolute;
-  top: 18px;
-  right: 15px;
+  position: relative;
+  top: 37px;
+  left: 249px;
   width: 18px;
   height: 19px;
 }
@@ -58,7 +58,7 @@
 }
 
 .card__like-button_active {
-  background-image: url(../images/like_active.svg);
+  background: url(../images/like_active.svg) no-repeat;
 }
 
 .card__like-button:hover {

@@ -102,26 +102,36 @@
             class="modal__input modal__input_type_url"
             required
           />
-          <button class="modal__button" type="submit">Save</button>
+          <button class="modal__button" type="submit">Create</button>
         </form>
+      </div>
+    </div>
+
+    <!--Preview image modal-->
+    <div class="modal" id="preview-image-modal">
+      <div class="modal__container">
+        <button
+          class="modal__close"
+          id="modal-close-button"
+          type="button"
+        ></button>
+        <img src="" alt="" class="modal__preview-image" />
+        <p class="modal__preview-description"></p>
       </div>
     </div>
 
     <template id="card-template">
       <li class="card">
-        <img src="" alt="" class="card__image" />
-        <div class="card__description">
-          <h2 class="card__title"></h2>
-          <button
-            class="card__like-button card-like-button_active"
-            type="button"
-          ></button>
-        </div>
         <button
           class="card__trash-button"
           id="card-trash-button"
           type="button"
         ></button>
+        <img src="" alt="" class="card__image" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button class="card__like-button" type="button"></button>
+        </div>
       </li>
     </template>
 

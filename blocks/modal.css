@@ -85,7 +85,7 @@
   opacity: 60%;
 }
 
-.modal__preview {
+.modal__container-image {
   padding: 0;
   background: transparent;
 }
@@ -93,6 +93,7 @@
 .modal__preview-image {
   max-width: 75vw;
   max-height: 75vh;
+  margin: auto;
 }
 
 .modal__preview-description {
@@ -129,5 +130,21 @@
     min-height: 27px;
     padding: 75px 0 0;
     margin: 0;
+  }
+
+  .modal__container-image {
+    padding: 0;
+    width: 240px;
+  }
+
+  .modal__preview-image {
+    max-width: 282px;
+  }
+
+  .modal__close-image {
+    top: -35px;
+    right: -75px;
+    width: 30px;
+    height: 30px;
   }
 }

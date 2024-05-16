@@ -135,19 +135,23 @@ profileEditButton.addEventListener("click", function () {
   openModal(profileEditModal);
 });
 
-profileModalCloseButton.addEventListener("click", () => closeModal(profileEditModal));
+profileModalCloseButton.addEventListener("click", () =>
+  closeModal(profileEditModal)
+);
 
 // add new card buttons
 addNewCardButton.addEventListener("click", function () {
   openModal(addNewCardModal);
 });
 
-addCardModalCloseButton.addEventListener("click", () => closeModal(addNewCardModal));
+addCardModalCloseButton.addEventListener("click", () =>
+  closeModal(addNewCardModal)
+);
 
 // preview image button
 
 previewImageModalCloseButton.addEventListener("click", () =>
-  closeModal(previewImageModal);
+  closeModal(previewImageModal)
 );
 
 initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
